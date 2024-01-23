@@ -1,0 +1,22 @@
+.mainheading{
+    z-index: 2;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    padding-top: 30px;
+    
+}
+.hero-2{
+    z-index: 1;
+    position: relative;
+    display: flex;
+}
+.cen{
+    /* padding-left: 20rem; */
+    width:60rem;
+    height:30rem;
+}
+.day{
+display: flex;
+justify-content: center;
+}

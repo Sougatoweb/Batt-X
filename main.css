@@ -1,0 +1,80 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+video
+{
+object-fit: cover;
+position:absolute;
+width: 100%;
+height: 100%;
+z-index: -1;
+}
+.tex{
+    text-align: center;
+}
+.hero-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+.abc{
+    text-align: center;
+            color: #000000;
+            font-size: 1.2rem;
+}
+.gradient{
+    width: 100%; 
+    height: 100%;
+}
+.mainheading{
+    z-index: 2;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    padding-top: 30px;  
+}
+.hero-2{
+    z-index: 1;
+    position: relative;
+    display: flex;
+}
+.titlecont{
+    padding-left: 100px;
+}
+
+.newDiv{
+    display:block;
+    background-color: #000000;
+    padding:10rem;
+}
+
+.newH1{
+    color: grey;
+    opacity:1;
+    text-align: center;
+    line-height: 10rem;
+}
+
+.edit{
+    display: inline-block;
+}
+
+.animate{
+    text-align: center;
+    animation-duration: 1s;
+    animation-name: fadeIn;
+    
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0.4; }
+    100% { opacity: 1; }
+  }
